@@ -17,6 +17,9 @@
     ],
     "files": [
         "./app.ts",
+        "./routes/index.ts",
+        "./routes/users.ts",
+        "./server.ts",
         "./typings/express/express.d.ts",
         "./typings/node-0.10.d.ts",
         "./typings/tsd.d.ts"
