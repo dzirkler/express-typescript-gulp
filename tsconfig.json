@@ -1,0 +1,24 @@
+{
+    "version": "1.5.0-beta",
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "declaration": false,
+        "noImplicitAny": false,
+        "removeComments": true,
+        "noLib": false,
+        "preserveConstEnums": true,
+        "suppressImplicitAnyIndexErrors": true
+    },
+    "filesGlob": [
+        "./**/*.ts",
+        "!./node_modules/**/*.ts",
+        "!./public/app/node_modules/**/*.ts"
+    ],
+    "files": [
+        "./server.ts",
+        "./typings/express/express.d.ts",
+        "./typings/node-0.10.d.ts",
+        "./typings/tsd.d.ts"
+    ]
+}
