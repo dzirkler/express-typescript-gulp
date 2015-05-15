@@ -16,7 +16,7 @@
         "!./public/app/node_modules/**/*.ts"
     ],
     "files": [
-        "./server.ts",
+        "./app.ts",
         "./typings/express/express.d.ts",
         "./typings/node-0.10.d.ts",
         "./typings/tsd.d.ts"
