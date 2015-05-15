@@ -7,5 +7,6 @@ A simple Proof-of-Concept using the express generator, then converting the proje
 3. run: npm install
 4. run: gulp
 5. run: node ./output/server.js
+6. browse: http://localhost:3000
 
 Your whole app will be in the deployable folder called './output'
